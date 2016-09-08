@@ -1,0 +1,25 @@
+<dataConfig>
+    <dataSource driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/solrexample" user="root"
+                password="test"/>
+    <document name="stuff">
+        <entity name="product" query="select * from product"
+                deltaQuery="select id from product where last_modified > '${dataimporter.last_index_time}'">
+            <field column="id" name="id"/>
+            <field column="name" name="product_name"/>
+            <field column="code" name="product_code"/>
+            <entity name="detail"
+                    query="select price, quantity, snippet, description from detail where product_id='${product.id}'">
+                <field name="detail_price" column="price"/>
+                <field name="detail_quantity" column="quantity"/>
+                <field name="detail_snippet" column="snippet"/>
+                <field name="detail_description" column="description"/>
+            </entity>
+            <entity name="supplier"
+                    query="select name, code, description from supplier where product_id='${product.id}'">
+                <field column="code" name="supplier_code"/>
+                <field column="name" name="supplier_name"/>
+                <field column="description" name="supplier_description"/>
+            </entity>
+        </entity>
+    </document>
+</dataConfig>

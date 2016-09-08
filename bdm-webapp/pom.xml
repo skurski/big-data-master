@@ -1,13 +1,89 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.skurski.big.data</groupId>
+
+    <parent>
+        <groupId>com.skurski.big.data</groupId>
+        <artifactId>bdm-mvn-root</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../bdm-mvn-root</relativePath>
+    </parent>
+
     <artifactId>bdm-webapp</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>Big Data Master Web Application</name>
 
+    <properties>
+        <spring.version>4.0.5.RELEASE</spring.version>
+        <solr.version>6.1.0</solr.version>
+        <servlet.version>2.5</servlet.version>
+        <commons.version>1.1.1</commons.version>
+        <jstl.version>1.2</jstl.version>
+        <mysql.version>5.1.6</mysql.version>
+        <slf4j.version>1.6.4</slf4j.version>
+    </properties>
+
     <build>
-        <finalName>bdm-webapp</finalName>
+        <finalName>${project.artifactId}</finalName>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.solr</groupId>
+            <artifactId>solr-solrj</artifactId>
+            <version>${solr.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.solr</groupId>
+            <artifactId>solr-core</artifactId>
+            <version>${solr.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>${servlet.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>${commons.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+    </dependencies>
 </project>
