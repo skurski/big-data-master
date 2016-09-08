@@ -1223,3 +1223,422 @@ INFO  - 2016-09-08 19:28:29.911; org.apache.solr.core.CachingDirectoryFactory; l
 INFO  - 2016-09-08 19:28:29.911; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data
 INFO  - 2016-09-08 19:28:29.911; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index [CachedDir<<refCount=0;path=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index;done=false>>]
 INFO  - 2016-09-08 19:28:29.911; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index
+INFO  - 2016-09-08 19:39:56.211; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2016-09-08 19:39:56.225; org.apache.solr.core.SolrResourceLoader; Using JNDI solr.home: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr
+INFO  - 2016-09-08 19:39:56.226; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/'
+INFO  - 2016-09-08 19:39:56.227; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-extras-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:39:56.228; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:39:56.368; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/solr.xml
+INFO  - 2016-09-08 19:39:56.560; org.apache.solr.core.CoreContainer; New CoreContainer 743048751
+INFO  - 2016-09-08 19:39:56.561; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/]
+INFO  - 2016-09-08 19:39:56.562; org.apache.solr.core.CoreContainer; loading shared library: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib
+INFO  - 2016-09-08 19:39:56.562; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-extras-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:39:56.562; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:39:56.575; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2016-09-08 19:39:56.575; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2016-09-08 19:39:56.575; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2016-09-08 19:39:56.576; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2016-09-08 19:39:56.576; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2016-09-08 19:39:56.577; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2016-09-08 19:39:56.577; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2016-09-08 19:39:56.577; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2016-09-08 19:39:56.577; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2016-09-08 19:39:56.583; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2016-09-08 19:39:56.670; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2016-09-08 19:39:56.684; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0
+INFO  - 2016-09-08 19:39:56.685; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/'
+INFO  - 2016-09-08 19:39:56.724; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2016-09-08 19:39:56.725; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-extras-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:39:56.725; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:39:56.747; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_44
+INFO  - 2016-09-08 19:39:56.804; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2016-09-08 19:39:56.813; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2016-09-08 19:39:56.839; org.apache.solr.schema.IndexSchema; [core0] Schema name=db
+INFO  - 2016-09-08 19:39:56.932; org.apache.solr.schema.IndexSchema; default search field in schema is text
+INFO  - 2016-09-08 19:39:56.933; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2016-09-08 19:39:56.934; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2016-09-08 19:39:57.017; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2016-09-08 19:39:57.022; org.apache.solr.core.SolrCore; [core0] Opening new SolrCore at /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/, dataDir=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/
+INFO  - 2016-09-08 19:39:57.023; org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@38af3868
+INFO  - 2016-09-08 19:39:57.048; org.apache.solr.core.SolrCore; [core0] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=solr,start=0,rows=10}, {q=rocks,start=0,rows=10}, {q=static newSearcher warming query from solrconfig.xml}]}
+INFO  - 2016-09-08 19:39:57.048; org.apache.solr.core.SolrCore; [core0] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2016-09-08 19:39:57.060; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data
+INFO  - 2016-09-08 19:39:57.060; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index/
+INFO  - 2016-09-08 19:39:57.061; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index
+INFO  - 2016-09-08 19:39:57.071; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2016-09-08 19:39:57.071; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2016-09-08 19:39:57.137; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2016-09-08 19:39:57.137; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SpellCheckerRequestHandler
+INFO  - 2016-09-08 19:39:57.138; org.apache.solr.core.RequestHandlers; created spellchecker: solr.SpellCheckerRequestHandler
+INFO  - 2016-09-08 19:39:57.140; org.apache.solr.core.RequestHandlers; created /mlt: solr.MoreLikeThisHandler
+INFO  - 2016-09-08 19:39:57.143; org.apache.solr.core.RequestHandlers; created /dataimport: org.apache.solr.handler.dataimport.DataImportHandler
+INFO  - 2016-09-08 19:39:57.144; org.apache.solr.core.RequestHandlers; created /search: org.apache.solr.handler.component.SearchHandler
+INFO  - 2016-09-08 19:39:57.144; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: org.apache.solr.handler.component.SearchHandler
+INFO  - 2016-09-08 19:39:57.144; org.apache.solr.core.RequestHandlers; created /elevate: org.apache.solr.handler.component.SearchHandler
+INFO  - 2016-09-08 19:39:57.148; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2016-09-08 19:39:57.150; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2016-09-08 19:39:57.153; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2016-09-08 19:39:57.156; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2016-09-08 19:39:57.171; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2016-09-08 19:39:57.208; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@703b7099 main
+INFO  - 2016-09-08 19:39:57.218; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2016-09-08 19:39:57.219; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2016-09-08 19:39:57.220; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/conf/elevate.xml
+INFO  - 2016-09-08 19:39:57.253; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@703b7099 main{StandardDirectoryReader(segments_3:7 _1(4.4):C4)}
+INFO  - 2016-09-08 19:39:57.254; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2016-09-08 19:39:57.257; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@703b7099 main{StandardDirectoryReader(segments_3:7 _1(4.4):C4)}
+INFO  - 2016-09-08 19:39:57.259; org.apache.solr.core.CoreContainer; registering core: core0
+INFO  - 2016-09-08 19:39:57.261; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/opt/apache-tomcat-8.0.35/bin
+INFO  - 2016-09-08 19:39:57.261; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2016-09-08 19:40:01.081; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1473356401057} status=0 QTime=6 
+INFO  - 2016-09-08 19:40:01.139; org.apache.solr.core.SolrCore; [core0] webapp=/solr path=/admin/system params={wt=json&_=1473356401124} status=0 QTime=10 
+INFO  - 2016-09-08 19:41:24.858; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=743048751
+INFO  - 2016-09-08 19:41:24.859; org.apache.solr.core.SolrCore; [core0]  CLOSING SolrCore org.apache.solr.core.SolrCore@24838d8
+INFO  - 2016-09-08 19:41:24.862; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2016-09-08 19:41:24.862; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2016-09-08 19:41:24.862; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2016-09-08 19:41:24.863; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2016-09-08 19:41:24.865; org.apache.solr.core.SolrCore; [core0] Closing main searcher on request.
+INFO  - 2016-09-08 19:41:24.867; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2016-09-08 19:41:24.868; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data [CachedDir<<refCount=0;path=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data;done=false>>]
+INFO  - 2016-09-08 19:41:24.868; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data
+INFO  - 2016-09-08 19:41:24.869; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index [CachedDir<<refCount=0;path=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index;done=false>>]
+INFO  - 2016-09-08 19:41:24.869; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index
+INFO  - 2016-09-08 19:41:27.738; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2016-09-08 19:41:27.750; org.apache.solr.core.SolrResourceLoader; Using JNDI solr.home: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr
+INFO  - 2016-09-08 19:41:27.751; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/'
+INFO  - 2016-09-08 19:41:27.752; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-extras-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:41:27.752; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:41:27.833; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/solr.xml
+INFO  - 2016-09-08 19:41:27.950; org.apache.solr.core.CoreContainer; New CoreContainer 2145652974
+INFO  - 2016-09-08 19:41:27.951; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/]
+INFO  - 2016-09-08 19:41:27.951; org.apache.solr.core.CoreContainer; loading shared library: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib
+INFO  - 2016-09-08 19:41:27.951; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-extras-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:41:27.952; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:41:27.966; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2016-09-08 19:41:27.967; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2016-09-08 19:41:27.967; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2016-09-08 19:41:27.967; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2016-09-08 19:41:27.967; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2016-09-08 19:41:27.967; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2016-09-08 19:41:27.967; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2016-09-08 19:41:27.968; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2016-09-08 19:41:27.968; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2016-09-08 19:41:27.974; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2016-09-08 19:41:28.019; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2016-09-08 19:41:28.032; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0
+INFO  - 2016-09-08 19:41:28.033; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/'
+INFO  - 2016-09-08 19:41:28.067; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2016-09-08 19:41:28.068; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-extras-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:41:28.069; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:41:28.092; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_44
+INFO  - 2016-09-08 19:41:28.142; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2016-09-08 19:41:28.148; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2016-09-08 19:41:28.165; org.apache.solr.schema.IndexSchema; [core0] Schema name=db
+INFO  - 2016-09-08 19:41:28.268; org.apache.solr.schema.IndexSchema; default search field in schema is text
+INFO  - 2016-09-08 19:41:28.269; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2016-09-08 19:41:28.270; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2016-09-08 19:41:28.351; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2016-09-08 19:41:28.356; org.apache.solr.core.SolrCore; [core0] Opening new SolrCore at /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/, dataDir=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/
+INFO  - 2016-09-08 19:41:28.357; org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@38af3868
+INFO  - 2016-09-08 19:41:28.382; org.apache.solr.core.SolrCore; [core0] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=solr,start=0,rows=10}, {q=rocks,start=0,rows=10}, {q=static newSearcher warming query from solrconfig.xml}]}
+INFO  - 2016-09-08 19:41:28.382; org.apache.solr.core.SolrCore; [core0] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2016-09-08 19:41:28.393; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data
+INFO  - 2016-09-08 19:41:28.393; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index/
+INFO  - 2016-09-08 19:41:28.393; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index
+INFO  - 2016-09-08 19:41:28.404; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2016-09-08 19:41:28.404; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2016-09-08 19:41:28.469; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2016-09-08 19:41:28.470; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SpellCheckerRequestHandler
+INFO  - 2016-09-08 19:41:28.471; org.apache.solr.core.RequestHandlers; created spellchecker: solr.SpellCheckerRequestHandler
+INFO  - 2016-09-08 19:41:28.473; org.apache.solr.core.RequestHandlers; created /mlt: solr.MoreLikeThisHandler
+INFO  - 2016-09-08 19:41:28.476; org.apache.solr.core.RequestHandlers; created /dataimport: org.apache.solr.handler.dataimport.DataImportHandler
+INFO  - 2016-09-08 19:41:28.477; org.apache.solr.core.RequestHandlers; created /search: org.apache.solr.handler.component.SearchHandler
+INFO  - 2016-09-08 19:41:28.477; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: org.apache.solr.handler.component.SearchHandler
+INFO  - 2016-09-08 19:41:28.477; org.apache.solr.core.RequestHandlers; created /elevate: org.apache.solr.handler.component.SearchHandler
+INFO  - 2016-09-08 19:41:28.480; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2016-09-08 19:41:28.481; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2016-09-08 19:41:28.483; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2016-09-08 19:41:28.485; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2016-09-08 19:41:28.498; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2016-09-08 19:41:28.530; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@4fbf2f6 main
+INFO  - 2016-09-08 19:41:28.539; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2016-09-08 19:41:28.540; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2016-09-08 19:41:28.541; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/conf/elevate.xml
+INFO  - 2016-09-08 19:41:28.564; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@4fbf2f6 main{StandardDirectoryReader(segments_3:7 _1(4.4):C4)}
+INFO  - 2016-09-08 19:41:28.565; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2016-09-08 19:41:28.566; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@4fbf2f6 main{StandardDirectoryReader(segments_3:7 _1(4.4):C4)}
+INFO  - 2016-09-08 19:41:28.566; org.apache.solr.core.CoreContainer; registering core: core0
+INFO  - 2016-09-08 19:41:28.568; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/opt/apache-tomcat-8.0.35/bin
+INFO  - 2016-09-08 19:41:28.568; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2016-09-08 19:42:07.024; org.apache.solr.handler.dataimport.DataImporter; Loading DIH Configuration: db-data-config.xml
+INFO  - 2016-09-08 19:42:07.032; org.apache.solr.handler.dataimport.DataImporter; Data Configuration loaded successfully
+INFO  - 2016-09-08 19:42:07.036; org.apache.solr.handler.dataimport.DataImporter; Starting Full Import
+INFO  - 2016-09-08 19:42:07.036; org.apache.solr.core.SolrCore; [core0] webapp=/solr path=/dataimport params={qt=/dataimport&clean=true&wt=javabin&version=2&command=full-import} status=0 QTime=16 
+INFO  - 2016-09-08 19:42:07.053; org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2016-09-08 19:42:07.091; org.apache.solr.update.DirectUpdateHandler2; [core0] REMOVING ALL DOCUMENTS FROM INDEX
+INFO  - 2016-09-08 19:42:07.127; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4678284b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+INFO  - 2016-09-08 19:42:07.127; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 3
+INFO  - 2016-09-08 19:42:07.140; org.apache.solr.handler.dataimport.JdbcDataSource$1; Creating a connection for entity product with URL: jdbc:mysql://localhost:3306/solrexample
+INFO  - 2016-09-08 19:42:07.408; org.apache.solr.handler.dataimport.JdbcDataSource$1; Time taken for getConnection(): 267
+INFO  - 2016-09-08 19:42:07.416; org.apache.solr.handler.dataimport.JdbcDataSource$1; Creating a connection for entity detail with URL: jdbc:mysql://localhost:3306/solrexample
+INFO  - 2016-09-08 19:42:07.427; org.apache.solr.handler.dataimport.JdbcDataSource$1; Time taken for getConnection(): 10
+INFO  - 2016-09-08 19:42:07.430; org.apache.solr.handler.dataimport.JdbcDataSource$1; Creating a connection for entity supplier with URL: jdbc:mysql://localhost:3306/solrexample
+INFO  - 2016-09-08 19:42:07.436; org.apache.solr.handler.dataimport.JdbcDataSource$1; Time taken for getConnection(): 6
+INFO  - 2016-09-08 19:42:07.486; org.apache.solr.handler.dataimport.DocBuilder; Import completed successfully
+INFO  - 2016-09-08 19:42:07.487; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2016-09-08 19:42:07.688; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4678284b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4678284b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+INFO  - 2016-09-08 19:42:07.689; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 4
+INFO  - 2016-09-08 19:42:07.693; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@33dccef0 main
+INFO  - 2016-09-08 19:42:07.759; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2016-09-08 19:42:07.760; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@33dccef0 main{StandardDirectoryReader(segments_4:10:nrt _2(4.4):C4)}
+INFO  - 2016-09-08 19:42:07.775; org.apache.solr.core.SolrCore; [core0] webapp=null path=null params={q=solr&distrib=false&start=0&rows=10&event=newSearcher} hits=0 status=0 QTime=14 
+INFO  - 2016-09-08 19:42:07.776; org.apache.solr.core.SolrCore; [core0] webapp=null path=null params={q=rocks&distrib=false&start=0&rows=10&event=newSearcher} hits=0 status=0 QTime=0 
+INFO  - 2016-09-08 19:42:07.783; org.apache.solr.core.SolrCore; [core0] webapp=null path=null params={q=static+newSearcher+warming+query+from+solrconfig.xml&distrib=false&event=newSearcher} hits=0 status=0 QTime=7 
+INFO  - 2016-09-08 19:42:07.783; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2016-09-08 19:42:07.784; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@33dccef0 main{StandardDirectoryReader(segments_4:10:nrt _2(4.4):C4)}
+INFO  - 2016-09-08 19:42:07.786; org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2016-09-08 19:42:07.786; org.apache.solr.handler.dataimport.SimplePropertiesWriter; Wrote last indexed time to dataimport.properties
+INFO  - 2016-09-08 19:42:07.786; org.apache.solr.handler.dataimport.DocBuilder; Time taken = 0:0:0.732
+INFO  - 2016-09-08 19:42:07.786; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr path=/dataimport params={qt=/dataimport&clean=true&wt=javabin&version=2&command=full-import} status=0 QTime=16 {deleteByQuery=*:*,add=[1, 2, 3, 4],commit=} 0 16
+INFO  - 2016-09-08 19:42:38.491; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=2145652974
+INFO  - 2016-09-08 19:42:38.492; org.apache.solr.core.SolrCore; [core0]  CLOSING SolrCore org.apache.solr.core.SolrCore@5b3c853a
+INFO  - 2016-09-08 19:42:38.495; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=1,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=4,cumulative_deletesById=0,cumulative_deletesByQuery=1,cumulative_errors=0}
+INFO  - 2016-09-08 19:42:38.496; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2016-09-08 19:42:38.496; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2016-09-08 19:42:38.497; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2016-09-08 19:42:38.498; org.apache.solr.core.SolrCore; [core0] Closing main searcher on request.
+INFO  - 2016-09-08 19:42:38.499; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2016-09-08 19:42:38.500; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data [CachedDir<<refCount=0;path=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data;done=false>>]
+INFO  - 2016-09-08 19:42:38.500; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data
+INFO  - 2016-09-08 19:42:38.500; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index [CachedDir<<refCount=0;path=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index;done=false>>]
+INFO  - 2016-09-08 19:42:38.501; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index
+INFO  - 2016-09-08 19:42:41.059; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2016-09-08 19:42:41.072; org.apache.solr.core.SolrResourceLoader; Using JNDI solr.home: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr
+INFO  - 2016-09-08 19:42:41.074; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/'
+INFO  - 2016-09-08 19:42:41.075; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-extras-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:42:41.076; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:42:41.162; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/solr.xml
+INFO  - 2016-09-08 19:42:41.304; org.apache.solr.core.CoreContainer; New CoreContainer 1921303433
+INFO  - 2016-09-08 19:42:41.306; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/]
+INFO  - 2016-09-08 19:42:41.306; org.apache.solr.core.CoreContainer; loading shared library: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib
+INFO  - 2016-09-08 19:42:41.307; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-extras-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:42:41.307; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:42:41.328; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2016-09-08 19:42:41.328; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2016-09-08 19:42:41.328; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2016-09-08 19:42:41.329; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2016-09-08 19:42:41.329; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2016-09-08 19:42:41.329; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2016-09-08 19:42:41.329; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2016-09-08 19:42:41.330; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2016-09-08 19:42:41.330; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2016-09-08 19:42:41.339; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2016-09-08 19:42:41.384; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2016-09-08 19:42:41.397; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0
+INFO  - 2016-09-08 19:42:41.399; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/'
+INFO  - 2016-09-08 19:42:41.436; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2016-09-08 19:42:41.437; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-extras-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:42:41.437; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:42:41.454; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_44
+INFO  - 2016-09-08 19:42:41.493; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2016-09-08 19:42:41.499; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2016-09-08 19:42:41.516; org.apache.solr.schema.IndexSchema; [core0] Schema name=db
+INFO  - 2016-09-08 19:42:41.588; org.apache.solr.schema.IndexSchema; default search field in schema is text
+INFO  - 2016-09-08 19:42:41.588; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2016-09-08 19:42:41.588; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2016-09-08 19:42:41.662; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2016-09-08 19:42:41.667; org.apache.solr.core.SolrCore; [core0] Opening new SolrCore at /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/, dataDir=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/
+INFO  - 2016-09-08 19:42:41.668; org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@38af3868
+INFO  - 2016-09-08 19:42:41.689; org.apache.solr.core.SolrCore; [core0] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=solr,start=0,rows=10}, {q=rocks,start=0,rows=10}, {q=static newSearcher warming query from solrconfig.xml}]}
+INFO  - 2016-09-08 19:42:41.690; org.apache.solr.core.SolrCore; [core0] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2016-09-08 19:42:41.699; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data
+INFO  - 2016-09-08 19:42:41.699; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index/
+INFO  - 2016-09-08 19:42:41.700; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index
+INFO  - 2016-09-08 19:42:41.709; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2016-09-08 19:42:41.709; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2016-09-08 19:42:41.768; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2016-09-08 19:42:41.769; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SpellCheckerRequestHandler
+INFO  - 2016-09-08 19:42:41.769; org.apache.solr.core.RequestHandlers; created spellchecker: solr.SpellCheckerRequestHandler
+INFO  - 2016-09-08 19:42:41.771; org.apache.solr.core.RequestHandlers; created /mlt: solr.MoreLikeThisHandler
+INFO  - 2016-09-08 19:42:41.774; org.apache.solr.core.RequestHandlers; created /dataimport: org.apache.solr.handler.dataimport.DataImportHandler
+INFO  - 2016-09-08 19:42:41.774; org.apache.solr.core.RequestHandlers; created /search: org.apache.solr.handler.component.SearchHandler
+INFO  - 2016-09-08 19:42:41.775; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: org.apache.solr.handler.component.SearchHandler
+INFO  - 2016-09-08 19:42:41.775; org.apache.solr.core.RequestHandlers; created /elevate: org.apache.solr.handler.component.SearchHandler
+INFO  - 2016-09-08 19:42:41.777; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2016-09-08 19:42:41.778; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2016-09-08 19:42:41.780; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2016-09-08 19:42:41.782; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2016-09-08 19:42:41.795; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2016-09-08 19:42:41.827; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@4a2ec67e main
+INFO  - 2016-09-08 19:42:41.837; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2016-09-08 19:42:41.838; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2016-09-08 19:42:41.839; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/conf/elevate.xml
+INFO  - 2016-09-08 19:42:41.863; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@4a2ec67e main{StandardDirectoryReader(segments_4:10 _2(4.4):C4)}
+INFO  - 2016-09-08 19:42:41.864; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2016-09-08 19:42:41.865; org.apache.solr.core.CoreContainer; registering core: core0
+INFO  - 2016-09-08 19:42:41.865; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@4a2ec67e main{StandardDirectoryReader(segments_4:10 _2(4.4):C4)}
+INFO  - 2016-09-08 19:42:41.866; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/opt/apache-tomcat-8.0.35/bin
+INFO  - 2016-09-08 19:42:41.867; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2016-09-08 19:42:55.887; org.apache.solr.handler.dataimport.DataImporter; Loading DIH Configuration: db-data-config.xml
+INFO  - 2016-09-08 19:42:55.896; org.apache.solr.handler.dataimport.DataImporter; Data Configuration loaded successfully
+INFO  - 2016-09-08 19:42:55.901; org.apache.solr.handler.dataimport.DataImporter; Starting Full Import
+INFO  - 2016-09-08 19:42:55.902; org.apache.solr.core.SolrCore; [core0] webapp=/solr path=/dataimport params={qt=/dataimport&clean=true&wt=javabin&version=2&command=full-import} status=0 QTime=26 
+INFO  - 2016-09-08 19:42:55.919; org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2016-09-08 19:42:55.937; org.apache.solr.update.DirectUpdateHandler2; [core0] REMOVING ALL DOCUMENTS FROM INDEX
+INFO  - 2016-09-08 19:42:55.986; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@3fba55b8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+INFO  - 2016-09-08 19:42:55.987; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 4
+INFO  - 2016-09-08 19:42:55.999; org.apache.solr.handler.dataimport.JdbcDataSource$1; Creating a connection for entity product with URL: jdbc:mysql://localhost:3306/solrexample
+INFO  - 2016-09-08 19:42:56.172; org.apache.solr.handler.dataimport.JdbcDataSource$1; Time taken for getConnection(): 173
+INFO  - 2016-09-08 19:42:56.177; org.apache.solr.handler.dataimport.JdbcDataSource$1; Creating a connection for entity detail with URL: jdbc:mysql://localhost:3306/solrexample
+INFO  - 2016-09-08 19:42:56.185; org.apache.solr.handler.dataimport.JdbcDataSource$1; Time taken for getConnection(): 8
+INFO  - 2016-09-08 19:42:56.187; org.apache.solr.handler.dataimport.JdbcDataSource$1; Creating a connection for entity supplier with URL: jdbc:mysql://localhost:3306/solrexample
+INFO  - 2016-09-08 19:42:56.194; org.apache.solr.handler.dataimport.JdbcDataSource$1; Time taken for getConnection(): 7
+INFO  - 2016-09-08 19:42:56.226; org.apache.solr.handler.dataimport.DocBuilder; Import completed successfully
+INFO  - 2016-09-08 19:42:56.226; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2016-09-08 19:42:56.403; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@3fba55b8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@3fba55b8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+INFO  - 2016-09-08 19:42:56.403; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 5
+INFO  - 2016-09-08 19:42:56.408; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@52fa1cf9 main
+INFO  - 2016-09-08 19:42:56.410; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2016-09-08 19:42:56.411; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@52fa1cf9 main{StandardDirectoryReader(segments_5:13:nrt _3(4.4):C4)}
+INFO  - 2016-09-08 19:42:56.428; org.apache.solr.core.SolrCore; [core0] webapp=null path=null params={q=solr&distrib=false&start=0&rows=10&event=newSearcher} hits=0 status=0 QTime=15 
+INFO  - 2016-09-08 19:42:56.429; org.apache.solr.core.SolrCore; [core0] webapp=null path=null params={q=rocks&distrib=false&start=0&rows=10&event=newSearcher} hits=0 status=0 QTime=1 
+INFO  - 2016-09-08 19:42:56.436; org.apache.solr.core.SolrCore; [core0] webapp=null path=null params={q=static+newSearcher+warming+query+from+solrconfig.xml&distrib=false&event=newSearcher} hits=0 status=0 QTime=6 
+INFO  - 2016-09-08 19:42:56.436; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2016-09-08 19:42:56.437; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@52fa1cf9 main{StandardDirectoryReader(segments_5:13:nrt _3(4.4):C4)}
+INFO  - 2016-09-08 19:42:56.438; org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2016-09-08 19:42:56.439; org.apache.solr.handler.dataimport.SimplePropertiesWriter; Wrote last indexed time to dataimport.properties
+INFO  - 2016-09-08 19:42:56.439; org.apache.solr.handler.dataimport.DocBuilder; Time taken = 0:0:0.519
+INFO  - 2016-09-08 19:42:56.439; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr path=/dataimport params={qt=/dataimport&clean=true&wt=javabin&version=2&command=full-import} status=0 QTime=26 {deleteByQuery=*:*,add=[1, 2, 3, 4],commit=} 0 26
+INFO  - 2016-09-08 19:44:45.991; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1921303433
+INFO  - 2016-09-08 19:44:45.992; org.apache.solr.core.SolrCore; [core0]  CLOSING SolrCore org.apache.solr.core.SolrCore@6a6300ba
+INFO  - 2016-09-08 19:44:45.994; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=1,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=4,cumulative_deletesById=0,cumulative_deletesByQuery=1,cumulative_errors=0}
+INFO  - 2016-09-08 19:44:45.995; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2016-09-08 19:44:45.995; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2016-09-08 19:44:45.995; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2016-09-08 19:44:45.999; org.apache.solr.core.SolrCore; [core0] Closing main searcher on request.
+INFO  - 2016-09-08 19:44:46.000; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2016-09-08 19:44:46.001; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index [CachedDir<<refCount=0;path=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index;done=false>>]
+INFO  - 2016-09-08 19:44:46.001; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index
+INFO  - 2016-09-08 19:44:46.001; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data [CachedDir<<refCount=0;path=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data;done=false>>]
+INFO  - 2016-09-08 19:44:46.001; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data
+INFO  - 2016-09-08 19:44:58.006; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2016-09-08 19:44:58.022; org.apache.solr.core.SolrResourceLoader; Using JNDI solr.home: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr
+INFO  - 2016-09-08 19:44:58.023; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/'
+INFO  - 2016-09-08 19:44:58.024; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-extras-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:44:58.025; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:44:58.174; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/solr.xml
+INFO  - 2016-09-08 19:44:58.397; org.apache.solr.core.CoreContainer; New CoreContainer 1065857456
+INFO  - 2016-09-08 19:44:58.398; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/]
+INFO  - 2016-09-08 19:44:58.398; org.apache.solr.core.CoreContainer; loading shared library: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib
+INFO  - 2016-09-08 19:44:58.399; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-extras-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:44:58.399; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:44:58.414; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2016-09-08 19:44:58.414; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: http://
+INFO  - 2016-09-08 19:44:58.414; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2016-09-08 19:44:58.415; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2016-09-08 19:44:58.415; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2016-09-08 19:44:58.416; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2016-09-08 19:44:58.416; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2016-09-08 19:44:58.416; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2016-09-08 19:44:58.416; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2016-09-08 19:44:58.422; org.apache.solr.client.solrj.impl.HttpClientUtil; Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2016-09-08 19:44:58.498; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2016-09-08 19:44:58.510; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0
+INFO  - 2016-09-08 19:44:58.511; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/'
+INFO  - 2016-09-08 19:44:58.548; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2016-09-08 19:44:58.550; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-extras-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:44:58.550; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/lib/solr-dataimporthandler-4.4.0.jar' to classloader
+INFO  - 2016-09-08 19:44:58.576; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_44
+INFO  - 2016-09-08 19:44:58.633; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2016-09-08 19:44:58.641; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2016-09-08 19:44:58.663; org.apache.solr.schema.IndexSchema; [core0] Schema name=db
+INFO  - 2016-09-08 19:44:58.755; org.apache.solr.schema.IndexSchema; default search field in schema is text
+INFO  - 2016-09-08 19:44:58.756; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2016-09-08 19:44:58.756; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2016-09-08 19:44:58.837; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2016-09-08 19:44:58.842; org.apache.solr.core.SolrCore; [core0] Opening new SolrCore at /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/, dataDir=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/
+INFO  - 2016-09-08 19:44:58.844; org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@38af3868
+INFO  - 2016-09-08 19:44:58.874; org.apache.solr.core.SolrCore; [core0] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=solr,start=0,rows=10}, {q=rocks,start=0,rows=10}, {q=static newSearcher warming query from solrconfig.xml}]}
+INFO  - 2016-09-08 19:44:58.875; org.apache.solr.core.SolrCore; [core0] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2016-09-08 19:44:58.889; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data
+INFO  - 2016-09-08 19:44:58.889; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index/
+INFO  - 2016-09-08 19:44:58.890; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index
+INFO  - 2016-09-08 19:44:58.903; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2016-09-08 19:44:58.904; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2016-09-08 19:44:58.981; org.apache.solr.core.RequestHandlers; created standard: solr.StandardRequestHandler
+INFO  - 2016-09-08 19:44:58.981; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SpellCheckerRequestHandler
+INFO  - 2016-09-08 19:44:58.982; org.apache.solr.core.RequestHandlers; created spellchecker: solr.SpellCheckerRequestHandler
+INFO  - 2016-09-08 19:44:58.985; org.apache.solr.core.RequestHandlers; created /mlt: solr.MoreLikeThisHandler
+INFO  - 2016-09-08 19:44:58.987; org.apache.solr.core.RequestHandlers; created /dataimport: org.apache.solr.handler.dataimport.DataImportHandler
+INFO  - 2016-09-08 19:44:58.988; org.apache.solr.core.RequestHandlers; created /search: org.apache.solr.handler.component.SearchHandler
+INFO  - 2016-09-08 19:44:58.988; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: org.apache.solr.handler.component.SearchHandler
+INFO  - 2016-09-08 19:44:58.988; org.apache.solr.core.RequestHandlers; created /elevate: org.apache.solr.handler.component.SearchHandler
+INFO  - 2016-09-08 19:44:58.991; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2016-09-08 19:44:58.992; org.apache.solr.core.RequestHandlers; created /admin/: org.apache.solr.handler.admin.AdminHandlers
+INFO  - 2016-09-08 19:44:58.994; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2016-09-08 19:44:58.996; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2016-09-08 19:44:59.009; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2016-09-08 19:44:59.046; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@6c419b52 main
+INFO  - 2016-09-08 19:44:59.062; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2016-09-08 19:44:59.062; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2016-09-08 19:44:59.064; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/conf/elevate.xml
+INFO  - 2016-09-08 19:44:59.106; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@6c419b52 main{StandardDirectoryReader(segments_5:13 _3(4.4):C4)}
+INFO  - 2016-09-08 19:44:59.107; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2016-09-08 19:44:59.109; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@6c419b52 main{StandardDirectoryReader(segments_5:13 _3(4.4):C4)}
+INFO  - 2016-09-08 19:44:59.110; org.apache.solr.core.CoreContainer; registering core: core0
+INFO  - 2016-09-08 19:44:59.112; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/opt/apache-tomcat-8.0.35/bin
+INFO  - 2016-09-08 19:44:59.112; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2016-09-08 19:45:02.685; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1473356702668} status=0 QTime=4 
+INFO  - 2016-09-08 19:45:02.737; org.apache.solr.core.SolrCore; [core0] webapp=/solr path=/admin/system params={wt=json&_=1473356702721} status=0 QTime=11 
+INFO  - 2016-09-08 19:45:14.861; org.apache.solr.handler.dataimport.DataImporter; Loading DIH Configuration: db-data-config.xml
+INFO  - 2016-09-08 19:45:14.876; org.apache.solr.handler.dataimport.DataImporter; Data Configuration loaded successfully
+INFO  - 2016-09-08 19:45:14.882; org.apache.solr.handler.dataimport.DataImporter; Starting Full Import
+INFO  - 2016-09-08 19:45:14.883; org.apache.solr.core.SolrCore; [core0] webapp=/solr path=/dataimport params={qt=/dataimport&clean=true&wt=javabin&version=2&command=full-import} status=0 QTime=35 
+INFO  - 2016-09-08 19:45:14.899; org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2016-09-08 19:45:14.945; org.apache.solr.update.DirectUpdateHandler2; [core0] REMOVING ALL DOCUMENTS FROM INDEX
+INFO  - 2016-09-08 19:45:14.995; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@42bd6bc9; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+INFO  - 2016-09-08 19:45:14.996; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 5
+INFO  - 2016-09-08 19:45:15.007; org.apache.solr.handler.dataimport.JdbcDataSource$1; Creating a connection for entity product with URL: jdbc:mysql://localhost:3306/solrexample
+INFO  - 2016-09-08 19:45:15.228; org.apache.solr.handler.dataimport.JdbcDataSource$1; Time taken for getConnection(): 221
+INFO  - 2016-09-08 19:45:15.232; org.apache.solr.handler.dataimport.JdbcDataSource$1; Creating a connection for entity detail with URL: jdbc:mysql://localhost:3306/solrexample
+INFO  - 2016-09-08 19:45:15.239; org.apache.solr.handler.dataimport.JdbcDataSource$1; Time taken for getConnection(): 7
+INFO  - 2016-09-08 19:45:15.241; org.apache.solr.handler.dataimport.JdbcDataSource$1; Creating a connection for entity supplier with URL: jdbc:mysql://localhost:3306/solrexample
+INFO  - 2016-09-08 19:45:15.248; org.apache.solr.handler.dataimport.JdbcDataSource$1; Time taken for getConnection(): 7
+INFO  - 2016-09-08 19:45:15.285; org.apache.solr.handler.dataimport.DocBuilder; Import completed successfully
+INFO  - 2016-09-08 19:45:15.286; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2016-09-08 19:45:15.455; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@42bd6bc9; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.MMapDirectory@/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@42bd6bc9; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+INFO  - 2016-09-08 19:45:15.455; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 6
+INFO  - 2016-09-08 19:45:15.461; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@4bad7ec0 main
+INFO  - 2016-09-08 19:45:15.464; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2016-09-08 19:45:15.465; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@4bad7ec0 main{StandardDirectoryReader(segments_6:16:nrt _4(4.4):C4)}
+INFO  - 2016-09-08 19:45:15.479; org.apache.solr.core.SolrCore; [core0] webapp=null path=null params={q=solr&distrib=false&start=0&rows=10&event=newSearcher} hits=0 status=0 QTime=13 
+INFO  - 2016-09-08 19:45:15.480; org.apache.solr.core.SolrCore; [core0] webapp=null path=null params={q=rocks&distrib=false&start=0&rows=10&event=newSearcher} hits=0 status=0 QTime=0 
+INFO  - 2016-09-08 19:45:15.486; org.apache.solr.core.SolrCore; [core0] webapp=null path=null params={q=static+newSearcher+warming+query+from+solrconfig.xml&distrib=false&event=newSearcher} hits=0 status=0 QTime=6 
+INFO  - 2016-09-08 19:45:15.486; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2016-09-08 19:45:15.487; org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@4bad7ec0 main{StandardDirectoryReader(segments_6:16:nrt _4(4.4):C4)}
+INFO  - 2016-09-08 19:45:15.489; org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2016-09-08 19:45:15.490; org.apache.solr.handler.dataimport.SimplePropertiesWriter; Wrote last indexed time to dataimport.properties
+INFO  - 2016-09-08 19:45:15.490; org.apache.solr.handler.dataimport.DocBuilder; Time taken = 0:0:0.590
+INFO  - 2016-09-08 19:45:15.491; org.apache.solr.update.processor.LogUpdateProcessor; [core0] webapp=/solr path=/dataimport params={qt=/dataimport&clean=true&wt=javabin&version=2&command=full-import} status=0 QTime=35 {deleteByQuery=*:*,add=[1, 2, 3, 4],commit=} 0 35
+INFO  - 2016-09-08 19:45:22.524; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1065857456
+INFO  - 2016-09-08 19:45:22.525; org.apache.solr.core.SolrCore; [core0]  CLOSING SolrCore org.apache.solr.core.SolrCore@eb57dba
+INFO  - 2016-09-08 19:45:22.530; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=1,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=4,cumulative_deletesById=0,cumulative_deletesByQuery=1,cumulative_errors=0}
+INFO  - 2016-09-08 19:45:22.531; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2016-09-08 19:45:22.532; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2016-09-08 19:45:22.532; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2016-09-08 19:45:22.534; org.apache.solr.core.SolrCore; [core0] Closing main searcher on request.
+INFO  - 2016-09-08 19:45:22.535; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2016-09-08 19:45:22.536; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index [CachedDir<<refCount=0;path=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index;done=false>>]
+INFO  - 2016-09-08 19:45:22.536; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data/index
+INFO  - 2016-09-08 19:45:22.536; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data [CachedDir<<refCount=0;path=/home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data;done=false>>]
+INFO  - 2016-09-08 19:45:22.536; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/psk/IdeaProjects/big-data-master/bdm-solr-webapp/src/main/resources/solr/core0/data

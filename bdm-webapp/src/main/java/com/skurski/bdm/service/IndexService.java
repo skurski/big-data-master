@@ -1,4 +1,4 @@
-package com.skurski.bdm.web.service;
+package com.skurski.bdm.service;
 
 
 import com.skurski.bdm.domain.SearchForm;

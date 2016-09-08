@@ -2,7 +2,7 @@ package com.skurski.bdm.web.controller;
 
 
 import com.skurski.bdm.domain.SearchForm;
-import com.skurski.bdm.web.service.IndexService;
+import com.skurski.bdm.service.IndexService;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.client.solrj.response.FacetField;
 import org.apache.solr.common.SolrDocumentList;
