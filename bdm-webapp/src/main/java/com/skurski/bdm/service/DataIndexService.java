@@ -2,10 +2,10 @@ package com.skurski.bdm.service;
 
 
 import com.skurski.bdm.domain.SearchForm;
-import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrQuery;
+import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
-import org.apache.solr.client.solrj.impl.HttpSolrClient;
+import org.apache.solr.client.solrj.impl.HttpSolrServer;
 import org.apache.solr.client.solrj.response.FacetField;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocumentList;
@@ -20,9 +20,9 @@ import java.util.List;
  * Service for SOLR search engine.
  */
 @Service
-public class IndexService {
+public class DataIndexService {
 
-    private SolrClient solr = null;
+    private SolrServer solr = null;
 
     private QueryResponse queryResponse = null;
 
@@ -32,14 +32,15 @@ public class IndexService {
 
     private final static String SOLR_URL = "http://localhost:8080/solr/core0";
 
-    public IndexService() throws SolrServerException, InterruptedException, IOException {
+    public DataIndexService() throws SolrServerException, InterruptedException, IOException {
         initSolr();
     }
 
     private void initSolr() throws IOException, SolrServerException,
             InterruptedException {
 
-        solr = new HttpSolrClient.Builder(SOLR_URL).build();
+        solr = new HttpSolrServer(SOLR_URL);
+//        solr = new HttpSolrClient.Builder(SOLR_URL).build();
     }
 
     public void importFullDb() throws IOException {

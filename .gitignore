@@ -9,4 +9,7 @@
 
 .idea
 
-target
+target/
+*/target/
+
+*/data/

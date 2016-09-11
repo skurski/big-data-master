@@ -1,11 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<html>
-<head>
-    <title>Search Result</title>
-</head>
-<body>
-<h1>Search Result</h1>
+
+<%@include file="import/header.jsp"%>
+
+<h2>Search Result</h2>
 
 <h2>Facets</h2>
 <table>

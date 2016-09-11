@@ -1,11 +1,14 @@
 package com.skurski.bdm.web.controller;
 
 
+import com.skurski.bdm.common.BdmLinks;
 import com.skurski.bdm.domain.SearchForm;
-import com.skurski.bdm.service.IndexService;
+import com.skurski.bdm.service.DataIndexService;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.client.solrj.response.FacetField;
 import org.apache.solr.common.SolrDocumentList;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,34 +26,32 @@ import java.util.List;
  * and for searching through service indexes to retrieve information.
  */
 @Controller
-public class IndexController {
+public class SmartSearchController {
+
+    private static final Logger LOG = LoggerFactory.getLogger(SmartSearchController.class);
 
     @Autowired
-    private IndexService indexService;
+    private DataIndexService dataIndexService;
 
-    @RequestMapping("/import-db")
-    public String importDb(Model model) {
+    @RequestMapping(BdmLinks.Search.ROOT)
+    public String searchEngine(Model model) {
         model.addAttribute("message", "Database imported to SOLR indexes.");
         model.addAttribute("searchForm", new SearchForm());
 
-        try {
-            indexService.importFullDb();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        LOG.debug("search engine method executed.");
 
         return "search-form";
     }
 
-    @RequestMapping(value="/search", method= RequestMethod.POST)
+    @RequestMapping(value=BdmLinks.Search.RESULT, method= RequestMethod.POST)
     public String search(@ModelAttribute SearchForm searchForm, Model model) {
         try {
-            indexService.querySolr(searchForm);
+            dataIndexService.querySolr(searchForm);
 
-            SolrDocumentList result = indexService.getSolrDocuments();
+            SolrDocumentList result = dataIndexService.getSolrDocuments();
             model.addAttribute("result", result);
 
-            List<FacetField.Count> facets = indexService.getFacets();
+            List<FacetField.Count> facets = dataIndexService.getFacets();
             model.addAttribute("facets", facets);
         } catch (SolrServerException e) {
             e.printStackTrace();

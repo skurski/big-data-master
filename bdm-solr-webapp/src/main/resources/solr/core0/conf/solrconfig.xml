@@ -28,7 +28,7 @@
 
   <jmx />
 
-  <lib dir="../lib/" regex="solr-dataimporthandler-.*\.jar" />
+  <lib dir="../../../../dist/" regex="solr-dataimporthandler-.*\.jar"/>
 
   <!-- To enable dynamic schema REST APIs, use the following for <schemaFactory>:
   

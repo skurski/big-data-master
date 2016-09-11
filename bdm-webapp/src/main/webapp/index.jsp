@@ -4,8 +4,8 @@
     <title>Apache SOLR</title>
 </head>
 <body>
-<h1>Apache SOLR search engine</h1>
 
-<p><a href="import-db">Import database to SOLR</a></p>
+<h1><a href="search">Big Data Master</a></h1>
+
 </body>
 </html>

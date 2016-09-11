@@ -16,12 +16,13 @@
 
     <properties>
         <spring.version>4.0.5.RELEASE</spring.version>
-        <solr.version>6.1.0</solr.version>
+        <solr.version>4.4.0</solr.version>
         <servlet.version>2.5</servlet.version>
         <commons.version>1.1.1</commons.version>
         <jstl.version>1.2</jstl.version>
         <mysql.version>5.1.6</mysql.version>
-        <slf4j.version>1.6.4</slf4j.version>
+        <slf4j.version>1.7.21</slf4j.version>
+        <log4j.version>1.2.17</log4j.version>
     </properties>
 
     <build>
@@ -43,11 +44,6 @@
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>${servlet.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-            <version>${commons.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -79,11 +75,43 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.version}</version>
         </dependency>
+        <!-- remove the real commons-logging from classpath -->
+        <!-- declare as provided or exclude from spring jars -->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>${commons.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- add slf4j interfaces to classpath -->
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
+            <artifactId>slf4j-api</artifactId>
             <version>${slf4j.version}</version>
+            <scope>compile</scope>
         </dependency>
-
+        <!-- add commons logging to slf4j bridge to classpath -->
+        <!-- acts as jcl but routes commons-logging calls to slf4j -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- add log4j binding to classpath -->
+        <!-- routes slf4j calls to log4j -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- add log4j to classpath -->
+        <!-- does the logging -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
     </dependencies>
 </project>
