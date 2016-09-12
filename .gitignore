@@ -13,3 +13,6 @@ target/
 */target/
 
 */data/
+
+bdm-solr-webapp/src/main/resources/solr/core0/data/
+bdm-solr-webapp/src/main/resources/solr/core0/conf/dataimport.properties
