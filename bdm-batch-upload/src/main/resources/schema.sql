@@ -1,0 +1,9 @@
+
+CREATE TABLE IF NOT EXISTS `RAW_REPORT` (
+  `id` INT AUTO_INCREMENT NOT NULL,
+  `date`  VARCHAR(100),
+  `impressions` VARCHAR(100),
+  `clicks`  VARCHAR(100),
+  `earning` VARCHAR(100),
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

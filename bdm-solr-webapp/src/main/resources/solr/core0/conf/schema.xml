@@ -261,15 +261,20 @@
 
 
         <field name="id" type="integer" indexed="true" stored="true" required="true" multiValued="false"/>
-        <field name="product_name" type="text" indexed="true" stored="true"/>
-        <field name="product_code" type="string" indexed="true" stored="true"/>
-        <field name="detail_price" type="float" indexed="true" stored="true"/>
-        <field name="detail_quantity" type="integer" indexed="true" stored="true"/>
-        <field name="detail_snippet" type="text" indexed="true" stored="true"/>
-        <field name="detail_description" type="text" indexed="true" stored="true"/>
-        <field name="supplier_name" type="string" indexed="true" stored="true"/>
-        <field name="supplier_code" type="string" indexed="true" stored="true"/>
-        <field name="supplier_description" type="text" indexed="true" stored="true"/>
+
+        <field name="expenseName" type="text" indexed="true" stored="true"/>
+        <field name="expensePrice" type="float" indexed="true" stored="true"/>
+        <field name="expenseDesc" type="text" indexed="true" stored="true"/>
+        <field name="expenseCT" type="date" indexed="true" stored="true"/>
+        <field name="expenseUT" type="date" indexed="true" stored="true"/>
+
+        <field name="categoryName" type="string" indexed="true" stored="true"/>
+        <field name="categoryDesc" type="text" indexed="true" stored="true"/>
+
+        <field name="userFirstName" type="string" indexed="true" stored="true"/>
+        <field name="userLastName" type="string" indexed="true" stored="true"/>
+        <field name="userEmail" type="string" indexed="true" stored="true"/>
+
 
         <!-- catchall field, containing all other searchable text fields (implemented
              via copyField further on in this schema  -->
@@ -313,12 +318,12 @@
     <!-- SolrQueryParser configuration: defaultOperator="AND|OR" -->
     <solrQueryParser defaultOperator="OR"/>
 
-    <copyField source="product_name" dest="text"/>
-    <copyField source="product_code" dest="text"/>
-    <copyField source="detail_snippet" dest="text"/>
-    <copyField source="detail_description" dest="text"/>
-    <copyField source="supplier_name" dest="text"/>
-    <copyField source="supplier_code" dest="text"/>
-    <copyField source="supplier_description" dest="text"/>
+    <copyField source="expenseName" dest="text"/>
+    <copyField source="expenseDesc" dest="text"/>
+    <copyField source="categoryName" dest="text"/>
+    <copyField source="categoryDesc" dest="text"/>
+    <copyField source="userFirstName" dest="text"/>
+    <copyField source="userLastName" dest="text"/>
+    <copyField source="userEmail" dest="text"/>
 
 </schema>

@@ -1,0 +1,27 @@
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    <!-- general application log -->
+    <appender name="Console" class="org.apache.log4j.ConsoleAppender">
+        <param name="Target" value="System.out"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-5p %c{1} - %m%n"/>
+        </layout>
+    </appender>
+    <appender name="AllFile" class="org.apache.log4j.FileAppender">
+        <param name="File" value="${user.home}/logs/upload.log" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-5p %t [%-40.40c] %x - %m%n"/>
+        </layout>
+    </appender>
+    <!-- all logging -->
+    <logger name="com.skurski.bdm.upload">
+        <level value="DEBUG"/>
+        <appender-ref ref="AllFile"/>
+    </logger>
+    <!-- default logging -->
+    <root>
+        <level value="DEBUG"/>
+        <appender-ref ref="Console"/>
+        <appender-ref ref="AllFile"/>
+    </root>
+</log4j:configuration>

@@ -1,25 +1,47 @@
 <dataConfig>
-    <dataSource driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/solrexample" user="root"
+    <dataSource driver="com.mysql.jdbc.Driver"
+                url="jdbc:mysql://localhost:3306/bigdata"
+                user="root"
                 password="test"/>
-    <document name="stuff">
-        <entity name="product" query="select * from product"
-                deltaQuery="select id from product where last_modified > '${dataimporter.last_index_time}'">
+    <document name="bigdata">
+        <entity name="expense"
+                query=
+                    "select
+                          e.id as id,
+                          e.name as expense_name,
+                          e.price as expense_price,
+                          e.description as expense_desc,
+                          e.create_time as expense_ct,
+                          e.update_time as expense_ut,
+                          c.name as category_name,
+                          c.description as category_desc,
+                          u.first_name as user_first_name,
+                          u.last_name as user_last_name,
+                          u.email as user_email
+                        FROM expense e
+                          INNER JOIN expense_category ec
+                            ON ec.expense_id = e.id
+                          INNER JOIN user u
+                            ON u.id = e.user_id
+                          INNER JOIN category c
+                            ON ec.category_id = c.id"
+                deltaQuery=""
+                deltaImportQuery="">
+
             <field column="id" name="id"/>
-            <field column="name" name="product_name"/>
-            <field column="code" name="product_code"/>
-            <entity name="detail"
-                    query="select price, quantity, snippet, description from detail where product_id='${product.id}'">
-                <field name="detail_price" column="price"/>
-                <field name="detail_quantity" column="quantity"/>
-                <field name="detail_snippet" column="snippet"/>
-                <field name="detail_description" column="description"/>
-            </entity>
-            <entity name="supplier"
-                    query="select name, code, description from supplier where product_id='${product.id}'">
-                <field column="code" name="supplier_code"/>
-                <field column="name" name="supplier_name"/>
-                <field column="description" name="supplier_description"/>
-            </entity>
+            <field column="expense_name" name="expenseName"/>
+            <field column="expense_price" name="expensePrice"/>
+            <field column="expense_desc" name="expenseDesc"/>
+            <field column="expense_ct" name="expenseCT"/>
+            <field column="expense_ut" name="expenseUT"/>
+
+            <field column="category_name" name="categoryName"/>
+            <field column="category_desc" name="categoryDesc"/>
+
+            <field column="user_first_name" name="userFirstName"/>
+            <field column="user_last_name" name="userLastName"/>
+            <field column="user_email" name="userEmail"/>
+
         </entity>
     </document>
 </dataConfig>
