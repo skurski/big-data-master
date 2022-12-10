@@ -15,7 +15,7 @@
     <name>Big Data Master Web Application</name>
 
     <properties>
-        <spring.version>4.0.5.RELEASE</spring.version>
+        <spring.version>6.0.0</spring.version>
         <solr.version>4.4.0</solr.version>
         <servlet.version>2.5</servlet.version>
         <commons.version>1.1.1</commons.version>
